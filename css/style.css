@@ -1,0 +1,122 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Yeon Sung', cursive;
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap");
+
+
+.jumbotron{
+  /*background-image: url("//wallpoper.com/images/00/31/33/51/black-background_00313351.jpg") ;*/
+  background-image: url('../img/autumn-941159_640.jpg');
+  color:#000;
+}
+
+
+
+body {
+  font-size: 0.9375rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+ul{
+  list-style-type:none
+}
+
+.a2 {
+  color: #000;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.a2:hover {
+  color: #0f7864;
+  text-decoration: underline;
+}
+
+
+
+/********************************************************/
+/*                      FOOTER CSS                      */
+/********************************************************/
+
+.footer{
+  background: #2C3E50;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+
+
+
+/********************************************************/
+/*                    MAIN BANNER CSS                   */
+/********************************************************/
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/concert-2527495_1280.jpg");
+
+  /* Set a specific height */
+  height: 80%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+
+
+
+
